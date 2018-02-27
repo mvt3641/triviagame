@@ -4,28 +4,34 @@
 <title>Trivia Game</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 </head>
 
 <body>
 
 
-	
+
 		<h5 class="header">Lets go Sailing!</h5>
-		
-	
-	
+
+		<div id="startdiv" class="strdiv">
+
+
+		<button id="startbtn" class="start-btn">
+			Start!
+		</button>
+		</div>
 
 
 <div class="container">
 		<form name= "quiz">
 			<ul class="list-group">
-				<div>			
+				<div>
 					<li class="list-group-item">1. Which is not a location on a sailboat?</li>
 					<form>
-					<input type="Radio" name ="Q1" value= "Aft"> Aft<br>
+					<input type="Radio" id='q1a' name ="Q1" value= "Aft"> Aft<br>
   					<input type="Radio" name ="Q1"> Bow<br>
   					<input type="Radio" name = "Q1" value= "Starburst"> Starburst<br>
-  					<input type="Radio" name = "Q1"> Port <br>				
+  					<input type="Radio" name = "Q1"> Port <br>
   					</form>
   				</div>
   				<div>
@@ -42,31 +48,31 @@
   					<input type="Radio" name ="Q3"> From the port aft side<br>
   					<input type="Radio" name ="Q3"> From the Bow <br>
   					<input type="Radio" name ="Q3" value= "beam"> Over the side, either port or starboard<br>
-  					</form>					
+  					</form>
 				</div>
 				<div>
 				    <li class="list-group-item"> Which is not a part of a sailboat?</li>
 				    <form>
 				    <input type="Radio" name ="Q4"> Sheets<br>
-  					<input type="Radio" name ="Q4""> Telltales<br>
+  					<input type="Radio" name ="Q4"> Telltales<br>
   					<input type="Radio" name ="Q4" value="NR"> Storm vain  <br>
   					<input type="Radio" name ="Q4"> traveler<br>
-  					</form>					
+  					</form>
 				</div>
 			</ul>
 
 			</form>
 
 			<br>
-			
-			<button id= "button" value= "Im finished!" onclick= "check();">
+
+			<button id= "submit-btn" value= "Im finished!" class="button">
 				Submit!
-			</button>	
-		
+			</button>
+
 </div>
 
 
-<P id= "number_correct" style="font-weight: bolder;"></P>
+<P id= "number_correct" class="score" style="font-weight: bolder;"></P>
 
 
 

@@ -1,0 +1,56 @@
+.header{
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size: 36px;
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+}
+
+
+.score{
+  text-align: center;
+  background-color: green;
+}
+
+.tensec_left{
+  color:red;
+  font-weight: 800;
+  text-align: center;
+  background-color: skyblue;
+  opacity: .8
+
+}
+
+.failed{
+  text-align: center;
+  background: red;
+}
+
+.start-btn{
+  /* position: relative;
+  left: 246px; */
+  font-weight: bolder;
+
+}
+
+.strdiv{
+  color:black;
+font-weight: bolder;
+  text-align: center;
+  background-color: skyblue;
+  opacity: .5;
+}
+
+body{
+  background-image: url('../images/sailing.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list-group{
+  color:black;
+  font-weight: bolder;
+  background-color: skyblue;
+  opacity: .7;
+}
